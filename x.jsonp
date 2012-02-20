@@ -1,1 +1,1 @@
-foo({"aaa": (function() { alert("o no"); return "bbb" })});
+foo({"aaa": (function() { alert("o no"); return "bbb" })()});
